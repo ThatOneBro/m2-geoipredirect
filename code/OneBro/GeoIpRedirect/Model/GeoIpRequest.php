@@ -16,7 +16,7 @@ class GeoIpRequest
 	
 	private $response;
 	
-	public function __construct
+	public function __construct(
 		CurlFactory $curlFactory,
 		Http $http,
 		Data $jsonHelper
