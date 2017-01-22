@@ -25,7 +25,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
 				'default' => null,
 				'comment' => 'Country Code'
 			]
-		)
+		);
 		
 		$setup->endSetup();
 	}
